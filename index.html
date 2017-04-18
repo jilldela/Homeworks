@@ -65,6 +65,36 @@
       </li>
     </ol>
 
+<section id="reviews">
+  <h2>Reviews</h2>
+    <form class="" action="/reviews" method="post">
+      <label for="reviewer">Name of Reviewer</label>
+      <input id="reviewer" type="text" name="post[reviewer]" value="">
+      <br/><br/>
+      <label for="rating">Rating</label>
+      1<input id="rating" type="radio" name="post[rating]" value="1">
+      2<input id="rating" type="radio" name="post[rating]" value="2">
+      3<input id="rating" type="radio" name="post[rating]" value="3">
+      4<input id="rating" type="radio" name="post[rating]" value="4">
+      5<input id="rating" type="radio" name="post[rating]" value="5">
+      <br/><br/>
+      <label for="expertise">Cooking Expertise</label>
+      <br/><br/>
+      <select id="expertise" class="" name="post[expertise]">
+        <option disabled selected>--Select Cooking Expertise--</option>
+        <option value="Sometimes Cook">Sometimes Cook</option>
+        <option value="Cook Everyday">Cook Everyday</option>
+        <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+        <option value="Professional Chef">Professional Chef</option>
+      </select>
+      <br/><br/>
+      <label>Review
+        <br/>
+        <textarea name="post[review]" rows="8" cols="80">Write your review here!</textarea>
+      </label>
+    </form>
+  </section>
+
     <footer>
       <p>
         Original recipe from:
