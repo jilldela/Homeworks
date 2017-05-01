@@ -1,0 +1,31 @@
+html, head, header, nav, aside, title, body, section, footer, p, h1, h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  width: 27px;
+  height: 27px;
+  background-image: url()
+}
+
+input[type="radio"]:checked {
+  background-position: 30px 30px;
+}
+
+input:last-child {
+  background: gold;
+}
+
+input:last-child:hover {
+  -webkit-filter:brightness(90%);
+}
+
+ul li {
+
+}
